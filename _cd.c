@@ -15,7 +15,9 @@ int _cd(char **args, char ***envl, node_t **pathl, node_t **histl)
 	char *prev;
 	(void) pathl;
 	(void) histl;
-
+	
+/**cd arg*/
+	
 	if (args[1] == NULL)
 		home = _strdup(_getenv("HOME", *envl));
 	else if (*args[1] == '-')
