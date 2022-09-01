@@ -14,7 +14,7 @@
 #define LINE_LENGTH 20
 /*#define EOF (-1)*/
 
-/* structs */
+
 
 /**
  * struct node_s - generic node for all lists
